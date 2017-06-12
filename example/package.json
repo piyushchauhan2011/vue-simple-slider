@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "vue build index.vue"
+  },
+  "dependencies": {
+    "vue-simple-slider": "^1.0.1"
+  }
+}

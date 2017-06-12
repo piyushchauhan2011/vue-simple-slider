@@ -62,6 +62,7 @@ export default {
 
 ``` bash
 # install dependencies
+npm i -g vue-cli
 npm install
 
 # serve with hot reload at localhost:4000
