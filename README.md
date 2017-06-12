@@ -11,38 +11,48 @@ Modern browsers and IE10+ (IE9 should work, but as flex is not supported you'll 
 * Lightweight, no dependencies
 * Navigation, pager and arrows
 * Swipe and Mouse support, with velocity detection
+* Works only with JSX syntax currently
 
 ## Usage
 
-```html
-<style>
-@import "node_modules/vue-simple-slider/dist/Slider.css";
-
-div {
-  background: lightblue,
-  height: 250px
-}
-</style>
-
-<template>
-  <Slider>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>D</div>
-    <div>E</div>
-  </Slider>
-</template>
-
-<script>
+```jsx
+import 'node_modules/vue-simple-slider/dist/Slider.css'
 import Slider from 'vue-simple-slider'
+
+const style = {
+  height: '250px',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  color: '#fafafa'
+}
 
 export default {
   components: {
     Slider
+  },
+  render(h) {
+    return (
+      <Slider>
+        <div style={{ background: '#21BB9A', ...style }}>
+          <h1>A</h1>
+        </div>
+        <div style={{ background: '#329ADD', ...style }}>
+          <h1>B</h1>
+        </div>
+        <div style={{ background: '#9A5CB9', ...style }}>
+          <h1>C</h1>
+        </div>
+        <div style={{ background: '#E64C3C', ...style }}>
+          <h1>D</h1>
+        </div>
+        <div style={{ background: '#2D3F52', ...style }}>
+          <h1>E</h1>
+        </div>
+      </Slider>
+    )
   }
 }
-</script>
 ```
 
 ## Screenshot
