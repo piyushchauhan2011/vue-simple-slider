@@ -1,0 +1,31 @@
+{
+  "name": "vue-simple-slider",
+  "description": "A simple, flexible slider for Vue.js",
+  "version": "1.0.0",
+  "author": "Piyush Chauhan <piyushchauhan2011@gmail.com>",
+  "main": "dist/Slider.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vue build App.vue",
+    "build": "vue build Slider.js --prod --lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyushchauhan2011/vue-simple-slider"
+  },
+  "bugs": {
+    "url": "https://github.com/piyushchauhan2011/vue-simple-slider/issues"
+  },
+  "homepage": "https://github.com/piyushchauhan2011/vue-simple-slider",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "ui",
+    "components",
+    "slider",
+    "carousel"
+  ],
+  "dependencies": {
+  }
+}
