@@ -42,6 +42,9 @@ export default {
 </script>
 ```
 
+## Screenshot
+![screen shot 2017-06-13 at 2 43 31 am](https://user-images.githubusercontent.com/693487/27049909-5bc66f02-4fe3-11e7-8342-8d3da37a3915.png)
+
 ## Build Setup
 
 ``` bash
