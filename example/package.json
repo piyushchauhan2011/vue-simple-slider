@@ -6,6 +6,6 @@
     "start": "vue build index.vue"
   },
   "dependencies": {
-    "vue-simple-slider": "^1.0.1"
+    "vue-simple-slider": "^1.0.2"
   }
 }
