@@ -59,3 +59,14 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-build](https://github.com/vuejs/vue-cli/blob/master/docs/build.md).
+
+
+## License
+vue-simple-slider is open source and released under the [MIT License](LICENSE).
+
+Copyright (c) 2017 [Piyush Chauhan](https://twitter.com/piyushpsycho).
+
+> *PS: I would love to know if you're using vue-simple-slider. Tweet to me at [@piyushpsycho](https://twitter.com/piyushpsycho)*.
+
+## Credits
+Shamelessy copied from react community [React Simple Slider](https://github.com/Stanko/react-slider)
