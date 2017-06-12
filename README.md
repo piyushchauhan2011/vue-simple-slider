@@ -15,19 +15,22 @@ Modern browsers and IE10+ (IE9 should work, but as flex is not supported you'll 
 ## Usage
 
 ```html
+<style>
+@import "node_modules/vue-simple-slider/dist/Slider.css";
+
+div {
+  background: lightblue,
+  height: 250px
+}
+</style>
+
 <template>
-  <Slider
-    :loop="false"
-    :selected="0"
-    :showArrows="true"
-    :showNav="true">
-
-      <div>A</div>
-      <div>B</div>
-      <div>C</div>
-      <div>D</div>
-      <div>E</div>
-
+  <Slider>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
   </Slider>
 </template>
 
